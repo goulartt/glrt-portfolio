@@ -1,0 +1,27 @@
+.nav {
+    margin-bottom: 0;
+    position: absolute;
+    z-index: 10;
+    background: transparent;
+    color: #fff !important;
+    width: 100%;
+    border-radius: 0 !important;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.titulo {
+    margin-bottom: 0;
+    margin-top: 0;
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-menu {
+    color: white !important;
+}
+
+
+.nav-menu:hover {
+    text-decoration: none;
+}

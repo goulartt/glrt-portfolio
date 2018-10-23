@@ -1,0 +1,22 @@
+.img-gray {
+    height: 100vh!important;
+    width: 100%;
+}
+
+.img-me {
+    transform: translate(85%, -50%)!important;
+}
+
+/* Remover setas e bullets carousel */
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
+.carousel-indicators li { visibility: hidden; }
+
+h3 {
+    font-size: 2em;
+}
+
+.content {
+    margin-bottom: 30vh;
+}
