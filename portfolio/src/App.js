@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react';
-import { Jumbotron, Button } from 'react-bootstrap';
 import './App.css';
 
 import Header from './componentes/Header';
 import About from './componentes/About';
+import Skills from './componentes/Skills';
 
 class App extends Component {
 
@@ -13,6 +13,10 @@ class App extends Component {
       <Fragment>
         <Header></Header>
         <About></About>
+        <Skills></Skills>
+
+
+
       </Fragment>
     );
   }

@@ -1,5 +1,6 @@
 .about {
     margin-top: 5%;
+    margin-bottom: 5%;
     color: black!important;
     font-size: 0.8em!important;
 }
@@ -14,7 +15,7 @@
 
 .me {
     color: gray;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 

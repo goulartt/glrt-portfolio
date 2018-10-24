@@ -1,14 +1,10 @@
 
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import { Navbar } from 'react-bootstrap';
 import '../css/Menu.css';
 import '../css/hover.css';
 
 class Menu extends Component {
-
-    constructor(props) {
-        super(props);
-    }
 
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll.bind(this));
@@ -19,7 +15,6 @@ class Menu extends Component {
     }
 
     handleScroll(event) {
-        console.log(document.documentElement.scrollTop);
         var element = document.getElementById("navbar-principal");
         if (document.documentElement.scrollTop > 80) {
             element.classList.add("nav-fundo");
@@ -40,7 +35,7 @@ class Menu extends Component {
                 </Navbar.Header>
                 <Navbar.Collapse >
                     <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#">CONTATO</Navbar.Link></Navbar.Text>
-                    <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#">HABILIDADES</Navbar.Link></Navbar.Text>
+                    <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#habilidade">HABILIDADES</Navbar.Link></Navbar.Text>
                     <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#">DETALHES</Navbar.Link></Navbar.Text>
 
                     <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#">BIOGRAFIA</Navbar.Link></Navbar.Text>

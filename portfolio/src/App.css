@@ -1,5 +1,31 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
+  color: white;
 }
 
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+.btn-outline {
+  margin-top: 5%;
+  border-radius: 0px;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.7em !important;
+  text-transform: uppercase !important;
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif !important;
+  padding: 0.3em 1em;
+  border: 2px solid white;
+  color: white;
+}

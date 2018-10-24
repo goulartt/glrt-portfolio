@@ -15,7 +15,7 @@ class About extends Component {
                         <Grid className="about">
                             <Row>
                                 <Col xs={6} md={6} sm={12} xs={12}>
-                                    <Image src={require('../img/me.jpg')} circle width={500} height={450} responsive />
+                                    <Image src={require('../img/me.jpg')} circle width={400} height={350} responsive />
                                     <p className="me">Me chamo <span className="nome">João Victor Goulart de Almeida</span>. Sou Full Stack Web Developer,
                             nasci em Assis - SP, atualmente morando em Londrina - PR e trabalhando na ATOS como Analista de Sistemas Pleno.</p>
                                 </Col>
