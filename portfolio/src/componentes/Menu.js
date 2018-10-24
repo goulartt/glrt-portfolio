@@ -5,9 +5,33 @@ import '../css/Menu.css';
 import '../css/hover.css';
 
 class Menu extends Component {
+
+    constructor(props) {
+        super(props);
+    }
+
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll.bind(this));
+    }
+
+    componentWillUnmoun() {
+        window.removeEventListener('scroll', this.handleScroll.bind(this));
+    }
+
+    handleScroll(event) {
+        console.log(document.documentElement.scrollTop);
+        var element = document.getElementById("navbar-principal");
+        if (document.documentElement.scrollTop > 80) {
+            element.classList.add("nav-fundo");
+        } else {
+            element.classList.remove("nav-fundo");
+        }
+
+    }
+
     render() {
         return (
-            <Navbar className="nav">
+            <Navbar className="nav" id="navbar-principal">
                 <Navbar.Header>
                     <Navbar.Brand>
                         <a href="#home"><h3 className="titulo">JOÃO GOULART</h3></a>

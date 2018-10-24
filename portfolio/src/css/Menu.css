@@ -1,6 +1,6 @@
 .nav {
     margin-bottom: 0;
-    position: absolute;
+    position: fixed;
     z-index: 10;
     background: transparent;
     color: #fff !important;
@@ -8,6 +8,7 @@
     border-radius: 0 !important;
     background-color: transparent;
     border-color: transparent;
+    transition: 0.5s linear;
 }
 
 .titulo {
@@ -18,10 +19,26 @@
 }
 
 .nav-menu {
+    margin-top: 1%;
     color: white !important;
 }
 
 
 .nav-menu:hover {
     text-decoration: none;
+}
+
+.nav-fundo {
+    background-color: black!important;
+    padding-bottom: 10px;
+}
+
+.navbar-collapse {
+    border-color: transparent!important;
+    background-color: transparent;
+}
+
+ .navbar-toggle {
+    border-color: transparent!important;
+    background-color: transparent!important;
 }

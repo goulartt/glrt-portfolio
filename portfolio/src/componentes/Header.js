@@ -17,6 +17,13 @@ class Header extends Component {
                             <p>Conheça um pouco sobre minha vida e meus trabalhos</p>
                         </Carousel.Caption>
                     </Carousel.Item>
+                    <Carousel.Item>
+                        <img className="img-gray img-responsive" alt="require" src={require('../img/foto-recode.jpeg')} />
+                        <Carousel.Caption className="content">
+                            <h3>2!</h3>
+                            <p>Conheça um pouco sobre minha vida e meus trabalhos</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
                 </Carousel>
             </Fragment>
         );
