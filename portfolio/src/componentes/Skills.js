@@ -31,6 +31,7 @@ class Skills extends Component {
                                 <Bar data={dataJavascript} options={optionsJavascript} />
                             </Col>
                         </Row>
+                        <div style={{ height: '5vh ' }}/>
                     </Grid>
                 </div>
             </Fragment>
