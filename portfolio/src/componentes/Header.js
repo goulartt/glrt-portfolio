@@ -11,7 +11,7 @@ class Header extends Component {
         return (
             <Fragment>
                 <Menu></Menu>
-                <Carousel interval={3000} indicators={false} controls={false}>
+                <Carousel interval={4000} indicators={false} controls={false} pauseOnHover={false}>
                     <Carousel.Item>
                         <img className="img-gray img-responsive" alt="require" src={require('../img/header.jpg')} />
                         <Carousel.Caption className="content">
@@ -20,7 +20,7 @@ class Header extends Component {
                             </Fade>
                             <Fade bottom big>
                                 <p>Conheça um pouco sobre minha vida e meus trabalhos</p>
-                                <Button className="btn-outline">CONHEÇA ALGUNS DOS MEUS TRABALHOS</Button>
+                                <Button className="btn-outline btn-white">CONHEÇA ALGUNS DOS MEUS TRABALHOS</Button>
                             </Fade >
 
                         </Carousel.Caption>
@@ -33,7 +33,7 @@ class Header extends Component {
                             </Fade>
                             <Fade right big>
                                 <p>Conheça um pouco sobre minha vida e meus trabalhos</p>
-                                <Button className="btn-outline">CONHEÇA ALGUNS DOS MEUS TRABALHOS</Button>
+                                <Button className="btn-outline btn-white">CONHEÇA ALGUNS DOS MEUS TRABALHOS</Button>
                             </Fade >
                         </Carousel.Caption>
                     </Carousel.Item>
