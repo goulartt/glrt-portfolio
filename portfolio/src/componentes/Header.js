@@ -20,7 +20,7 @@ class Header extends Component {
                             </Fade>
                             <Fade bottom big>
                                 <p>Conheça um pouco sobre minha vida e meus trabalhos</p>
-                                <Button className="btn-outline btn-white">CONHEÇA ALGUNS DOS MEUS TRABALHOS</Button>
+                                <Button className="btn-outline btn-white"><span>CONFIRA</span></Button>
                             </Fade >
 
                         </Carousel.Caption>
@@ -33,7 +33,7 @@ class Header extends Component {
                             </Fade>
                             <Fade right big>
                                 <p>Conheça um pouco sobre minha vida e meus trabalhos</p>
-                                <Button className="btn-outline btn-white">CONHEÇA ALGUNS DOS MEUS TRABALHOS</Button>
+                                <Button className="btn-outline btn-white">CONFIRA</Button>
                             </Fade >
                         </Carousel.Caption>
                     </Carousel.Item>

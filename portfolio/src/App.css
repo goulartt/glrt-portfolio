@@ -1,77 +1,87 @@
-@font-face{
-	font-family:ProximaNovaLight;
-	font-weight:normal;
-	src:url("../src/fontes/Proxima-Nova-Light.otf") format("opentype");
+@font-face {
+    font-family: ProximaNovaLight;
+    font-weight: normal;
+    src: url("../src/fontes/Proxima-Nova-Light.otf") format("opentype");
 }
 
-@font-face{
-	font-family:ProximaNovaBold;
-  font-weight:bold;
-  src:url("../src/fontes/Proxima-Nova-Semibold.otf") format("opentype");
+@font-face {
+    font-family: ProximaNovaBold;
+    font-weight: bold;
+    src: url("../src/fontes/Proxima-Nova-Semibold.otf") format("opentype");
 }
 
 body {
-  font-family: 'ProximaNovaLight','Montserrat', sans-serif;
-  font-size: 16px;
-  color: white;
+    font-family: 'ProximaNovaLight', 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
 }
 
 h1 {
-  font-size: 2em;
+    font-size: 2em;
 }
 
 h2 {
-  font-size: 1.6em;
+    font-size: 1.6em;
 }
 
 h3 {
-  font-size: 1.4em;
+    font-size: 1.4em;
+}
+
+@media (max-width: 1024px) {
+    .btn-outline {
+  
+    }
 }
 
 .btn-outline {
-  margin-top: 3%;
-  border-radius: 0px;
-  background: transparent;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.7em !important;
-  text-transform: uppercase !important;
-  font-family: 'ProximaNovaLight','Montserrat', Helvetica, Arial, Lucida, sans-serif !important;
-  padding: 0.3em 1em;
-  margin-left: 2%;
+    margin-top: 3%;
+    border-radius: 0px;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 100%;
+    line-height: 1.7em !important;
+    text-transform: uppercase !important;
+    font-family: 'ProximaNovaLight', 'Montserrat', Helvetica, Arial, Lucida, sans-serif !important;
+    padding: 0.3em 1em;
+    margin-left: 2%;
+}
 
+.btn-outline span {
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .btn-white {
-  border: 2px solid white;
-  color: white;
+    border: 2px solid white;
+    color: white;
 }
 
 .btn-white:hover {
-  color: black;
-  border: 2px solid white;
-  background-color: white;
+    color: black;
+    border: 2px solid white;
+    background-color: white;
 }
 
-
 .btn-black {
-  border: 2px solid black;
-  color: black;
+    border: 2px solid black;
+    color: black;
 }
 
 .btn-black:hover {
-  color: white;
-  border: 2px solid black;
-  background-color: black;
+    color: white;
+    border: 2px solid black;
+    background-color: black;
 }
 
 .btn-red {
-  border: 2px solid red;
-  color: red;
+    border: 2px solid red;
+    color: red;
 }
 
 .btn-red:hover {
-  color: white;
-  border: 2px solid red;
-  background-color: red;
+    color: white;
+    border: 2px solid red;
+    background-color: red;
 }
