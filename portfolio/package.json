@@ -10,6 +10,7 @@
     "react-bootstrap": "^0.32.4",
     "react-chartjs-2": "^2.7.4",
     "react-dom": "^16.5.2",
+    "react-responsive-modal": "^3.4.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "2.0.5"
   },
