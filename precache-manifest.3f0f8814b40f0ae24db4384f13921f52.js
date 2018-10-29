@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "8992e1899c48fe1298094f1453a0807f",
-    "url": "/glrt-portfolio/static/media/me.8992e189.jpg"
+    "revision": "c149a92aca63528798bdcd18db4426e6",
+    "url": "/glrt-portfolio/static/media/ecommerce.c149a92a.png"
   },
   {
-    "revision": "cc34d82fe25b4d4ba4cc",
-    "url": "/glrt-portfolio/static/css/main.8612e3a3.chunk.css"
+    "revision": "c2e1462336a7c5e01c4e",
+    "url": "/glrt-portfolio/static/css/main.b9488d26.chunk.css"
   },
   {
-    "revision": "b58086c8355e5c5f03c4",
-    "url": "/glrt-portfolio/static/js/1.b58086c8.chunk.js"
+    "revision": "b308cb2b50f0417e8770",
+    "url": "/glrt-portfolio/static/js/1.b308cb2b.chunk.js"
   },
   {
     "revision": "221da64ca261ecfbf09d",
@@ -32,12 +32,16 @@ self.__precacheManifest = [
     "url": "/glrt-portfolio/static/media/foto-recode.3ccbb097.jpeg"
   },
   {
-    "revision": "cc34d82fe25b4d4ba4cc",
-    "url": "/glrt-portfolio/static/js/main.cc34d82f.chunk.js"
+    "revision": "40fe809af02d8d4ee7a99e07c73dd55e",
+    "url": "/glrt-portfolio/static/media/curriculo_ingles.40fe809a.pdf"
   },
   {
-    "revision": "c149a92aca63528798bdcd18db4426e6",
-    "url": "/glrt-portfolio/static/media/ecommerce.c149a92a.png"
+    "revision": "8992e1899c48fe1298094f1453a0807f",
+    "url": "/glrt-portfolio/static/media/me.8992e189.jpg"
+  },
+  {
+    "revision": "c2e1462336a7c5e01c4e",
+    "url": "/glrt-portfolio/static/js/main.c2e14623.chunk.js"
   },
   {
     "revision": "151f31a7e84d85049eec73e654f49230",
@@ -60,7 +64,19 @@ self.__precacheManifest = [
     "url": "/glrt-portfolio/static/media/bradesco.aa8bda9e.png"
   },
   {
-    "revision": "5860a6f7085adf58b2abfbbe4a3f2eaf",
+    "revision": "f1329848f175d8059109e86ef826129a",
+    "url": "/glrt-portfolio/static/media/async.f1329848.jpeg"
+  },
+  {
+    "revision": "36896694f5a462ebbf0c5cf7f34e62cb",
+    "url": "/glrt-portfolio/static/media/realidade-aumentada.36896694.jpg"
+  },
+  {
+    "revision": "7253484cc4afe5b947069e5c64b94db8",
+    "url": "/glrt-portfolio/static/media/api.7253484c.png"
+  },
+  {
+    "revision": "586423a6b266e5d4467a1c7e83e1d263",
     "url": "/glrt-portfolio/index.html"
   }
 ];
