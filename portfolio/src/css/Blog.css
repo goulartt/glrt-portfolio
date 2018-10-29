@@ -1,5 +1,25 @@
 #blog {
     margin-top: 5%;
     background-color: black;
+    text-align: center;
 }
 
+.blog-item {
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    
+}
+
+.thumbnail img {
+    height: 195px;
+}
+
+.blog-link {
+    text-decoration: none;
+}
+
+.blog-link:hover {
+    text-decoration: none;
+}

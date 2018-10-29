@@ -35,10 +35,15 @@ class Menu extends Component {
                 </Navbar.Header>
                 <Navbar.Collapse >
                     <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#">CONTATO</Navbar.Link></Navbar.Text>
-                    <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#habilidade">HABILIDADES</Navbar.Link></Navbar.Text>
                     <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#">DETALHES</Navbar.Link></Navbar.Text>
 
+                    
                     <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#">BIOGRAFIA</Navbar.Link></Navbar.Text>
+                    <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#blog">BLOG</Navbar.Link></Navbar.Text>
+
+                    <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#portfolio">PORTFÓLIO</Navbar.Link></Navbar.Text>
+
+                    <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#habilidade">HABILIDADES</Navbar.Link></Navbar.Text>
                     <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#sobre">SOBRE</Navbar.Link></Navbar.Text>
 
                 </Navbar.Collapse>

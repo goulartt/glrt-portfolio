@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "http://goulartt.github.io/glrt-portfolio",
   "dependencies": {
-    "@material-ui/core": "^3.3.2",
     "chart.js": "^2.7.3",
     "gh-pages": "^2.0.1",
     "react": "^16.5.2",
