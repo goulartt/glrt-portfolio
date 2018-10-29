@@ -43,7 +43,6 @@ class Portfolio extends Component {
                         </Col>
                         <Col lg={12} md={12} sm={12} xs={12}>
                             <h3>Confira alguns dos projetos no qual já participei!</h3>
-                            <hr />
                         </Col>
 
                     </Row>
@@ -52,24 +51,24 @@ class Portfolio extends Component {
                             <Col lg={4} md={4} sm={6} xs={12}>
                                 <div className="port-item">
                                     <Image className="img-portfolio" src={require('../img/ecommerce.png')} responsive />
-                                    <div class="middle">
-                                        <div onClick={this.handleShow} class="text">E-commerce </div>
+                                    <div className="middle">
+                                        <div onClick={this.handleShow} className="text">E-commerce </div>
                                     </div>
                                 </div>
                             </Col>
                             <Col lg={4} md={4} sm={6} xs={12}>
                                 <div className="port-item">
                                     <Image className="img-portfolio" src={require('../img/cloud.png')} responsive />
-                                    <div class="middle">
-                                        <div onClick={this.handleShow} class="text">Microserviços e Cloud</div>
+                                    <div className="middle">
+                                        <div onClick={this.handleShow} className="text">Microserviços e Cloud</div>
                                     </div>
                                 </div>
                             </Col>
                             <Col lg={4} md={4} sm={6} xs={12}>
                                 <div className="port-item">
                                     <Image className="img-portfolio" src={require('../img/barber-logo.png')} responsive />
-                                    <div class="middle">
-                                        <div onClick={this.handleShow} class="text">App para Barbearia</div>
+                                    <div className="middle">
+                                        <div onClick={this.handleShow} className="text">App para Barbearia</div>
                                     </div>
                                 </div>
                             </Col>
@@ -78,8 +77,8 @@ class Portfolio extends Component {
                          <Col lg={4} md={4} sm={6} xs={12}>
                             <div className="port-item">
                                 <Image className="img-portfolio" src={require('../img/caixa.png')} responsive />
-                                <div class="middle">
-                                    <div onClick={this.handleShow} class="text">Caixa Seguradora</div>
+                                <div className="middle">
+                                    <div onClick={this.handleShow} className="text">Caixa Seguradora</div>
                                 </div>
                             </div>
                         </Col>
@@ -87,16 +86,16 @@ class Portfolio extends Component {
                             <Col lg={4} md={4} sm={6} xs={12}>
                                 <div className="port-item">
                                     <Image className="img-portfolio" src={require('../img/volks.png')} responsive />
-                                    <div class="middle">
-                                        <div onClick={this.handleShow} class="text">Volkswagen</div>
+                                    <div className="middle">
+                                        <div onClick={this.handleShow} className="text">Volkswagen</div>
                                     </div>
                                 </div>
                             </Col>
                             <Col lg={4} md={4} sm={6} xs={12}>
                                 <div className="port-item">
                                     <Image className="img-portfolio" src={require('../img/bradesco.png')} responsive />
-                                    <div class="middle">
-                                        <div onClick={this.handleShow} class="text">Bradesco</div>
+                                    <div className="middle">
+                                        <div onClick={this.handleShow} className="text">Bradesco</div>
                                     </div>
                                 </div>
                             </Col>
