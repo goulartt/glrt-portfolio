@@ -10,7 +10,7 @@ class Skills extends Component {
         return (
 
             <Fragment>
-                <div class="skillsContainer">
+                <div className="skillsContainer">
 
                     <Grid >
                         <Row className="skills" id="habilidade">

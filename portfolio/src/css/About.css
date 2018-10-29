@@ -18,5 +18,11 @@
     margin-top: 5%;
 }
 
+.about a {
+    text-decoration: none;
+}
 
+.title {
+    text-align: center;
+}
 
