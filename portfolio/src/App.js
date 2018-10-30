@@ -6,6 +6,9 @@ import About from './componentes/About';
 import Skills from './componentes/Skills';
 import Portfolio from './componentes/Portfolio';
 import Blog from './componentes/Blog';
+import Contact from './componentes/Contact';
+import Details from './componentes/Details';
+import Footer from './componentes/Footer';
 
 class App extends Component {
 
@@ -18,7 +21,9 @@ class App extends Component {
         <Skills></Skills>
         <Portfolio></Portfolio>
         <Blog></Blog>
-       
+        <Details></Details>
+        <Contact></Contact>
+        <Footer></Footer>
 
 
       </Fragment>
