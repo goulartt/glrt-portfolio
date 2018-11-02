@@ -32,7 +32,7 @@ class About extends Component {
                                     <hr />
 
                                     <Col xs={1} md={1} sm={2} xs={2}>
-                                        <Glyphicon className="icon" glyph="heart" />
+                                        <Glyphicon  glyph="heart" />
                                     </Col>
                                     <Col xs={11} md={11} sm={10} xs={10}>
                                         <h4>INTERESSES</h4>
@@ -53,7 +53,7 @@ class About extends Component {
                                     </Col>
 
                                     <Col xs={1} md={1} sm={2} xs={2}>
-                                        <Glyphicon className="icon" glyph="comment" />
+                                        <Glyphicon  glyph="comment" />
                                     </Col>
                                     <Col xs={11} md={11} sm={10} xs={10}>
                                         <h4>IDIOMAS</h4>
@@ -68,7 +68,7 @@ class About extends Component {
                                     </Col>
 
                                     <Col xs={1} md={1} sm={2} xs={2}>
-                                        <Glyphicon className="icon" glyph="education" />
+                                        <Glyphicon  glyph="education" />
                                     </Col>
                                     <Col xs={11} md={11} sm={10} xs={10}>
                                         <h4>FORMAÇÃO</h4>
@@ -83,7 +83,7 @@ class About extends Component {
                                     </Col>
 
                                     <Col xs={1} md={1} sm={2} xs={2}>
-                                        <Glyphicon className="icon" glyph="knight" />
+                                        <Glyphicon  glyph="knight" />
                                     </Col>
                                     <Col xs={11} md={11} sm={10} xs={10}>
                                         <h4>ATIVIDADES</h4>
