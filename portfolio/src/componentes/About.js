@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import '../css/About.css';
-import { Grid, Row, Col, Image, Glyphicon } from 'react-bootstrap';
+import { Grid, Row, Col, Image, Glyphicon, Button } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 
 const resume = require('../files/curriculo_ingles.pdf');
@@ -24,8 +24,8 @@ class About extends Component {
                             com especialidade em Java e certificado pela Oracle.
                             Nasci em Assis - SP, atualmente morando em Londrina - PR e trabalhando na ATOS como Analista de Sistemas Pleno.</p>
                                     <br />
-                                    <a className="btn-outline btn-black" href={resume} target="_blank" download>Currículo PDF</a>
-                                    <a className="btn-outline btn-red" href="https://www.youracclaim.com/badges/96820a30-de40-4428-9079-128379bd5a22/accept" target="_blank" >Certificado ORACLE</a>
+                                    <Button className="btn-outline btn-black" href={resume} target="_blank" download>Currículo PDF</Button>
+                                    <Button className="btn-outline btn-red" href="https://www.youracclaim.com/badges/96820a30-de40-4428-9079-128379bd5a22/accept" target="_blank" >Certificado ORACLE</Button>
                                 </Col>
                                 <Col xs={6} md={6} sm={12} xs={12}>
                                     <h1>João Victor Goulart de Almeida</h1>

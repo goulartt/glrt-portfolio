@@ -6,3 +6,37 @@
     text-align: center;
     text-transform: uppercase;
 }
+
+.icon {
+    top: 45px;
+}
+
+.detailsSub {
+    margin-left: 30px;
+}
+
+.sub {
+    vertical-align: middle;
+}
+
+.github {
+    height: 70%;
+    width: 10%;
+    position: relative;
+    left: 45%;
+}
+
+.github-text {
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .github {
+        height: 70%;
+        width: 30%;
+        position: relative;
+        left: 35%;
+    }
+    
+}

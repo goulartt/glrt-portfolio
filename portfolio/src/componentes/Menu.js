@@ -34,11 +34,10 @@ class Menu extends Component {
                     <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse >
-                    <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#">CONTATO</Navbar.Link></Navbar.Text>
-                    <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#">DETALHES</Navbar.Link></Navbar.Text>
+                    <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#contact">CONTATO</Navbar.Link></Navbar.Text>
+                    <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#details">DETALHES</Navbar.Link></Navbar.Text>
 
                     
-                    <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#">BIOGRAFIA</Navbar.Link></Navbar.Text>
                     <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#blog">BLOG</Navbar.Link></Navbar.Text>
 
                     <Navbar.Text pullRight><Navbar.Link className="nav-menu hvr-underline-from-left" href="#portfolio">PORTFÓLIO</Navbar.Link></Navbar.Text>
