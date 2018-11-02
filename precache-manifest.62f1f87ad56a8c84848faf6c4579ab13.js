@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/glrt-portfolio/static/media/ecommerce.c149a92a.png"
   },
   {
-    "revision": "a88a571f243edf0fe05f",
+    "revision": "8b375b020c9e57bfc597",
     "url": "/glrt-portfolio/static/css/main.1f51b80a.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/glrt-portfolio/static/media/me.8992e189.jpg"
   },
   {
-    "revision": "a88a571f243edf0fe05f",
-    "url": "/glrt-portfolio/static/js/main.a88a571f.chunk.js"
+    "revision": "8b375b020c9e57bfc597",
+    "url": "/glrt-portfolio/static/js/main.8b375b02.chunk.js"
   },
   {
     "revision": "151f31a7e84d85049eec73e654f49230",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/glrt-portfolio/static/media/api.7253484c.png"
   },
   {
-    "revision": "ba081d4cfca03d69b3cf79e70912d874",
+    "revision": "c0a8e8f99f0b86ec36997f0b017eec3e",
     "url": "/glrt-portfolio/index.html"
   }
 ];
