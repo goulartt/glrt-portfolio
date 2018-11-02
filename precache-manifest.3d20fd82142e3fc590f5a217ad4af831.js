@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/glrt-portfolio/static/media/ecommerce.c149a92a.png"
   },
   {
-    "revision": "c2e1462336a7c5e01c4e",
-    "url": "/glrt-portfolio/static/css/main.b9488d26.chunk.css"
+    "revision": "a88a571f243edf0fe05f",
+    "url": "/glrt-portfolio/static/css/main.1f51b80a.chunk.css"
   },
   {
-    "revision": "b308cb2b50f0417e8770",
-    "url": "/glrt-portfolio/static/js/1.b308cb2b.chunk.js"
+    "revision": "f0dacc48886aa434080a",
+    "url": "/glrt-portfolio/static/js/1.f0dacc48.chunk.js"
   },
   {
     "revision": "221da64ca261ecfbf09d",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/glrt-portfolio/static/media/me.8992e189.jpg"
   },
   {
-    "revision": "c2e1462336a7c5e01c4e",
-    "url": "/glrt-portfolio/static/js/main.c2e14623.chunk.js"
+    "revision": "a88a571f243edf0fe05f",
+    "url": "/glrt-portfolio/static/js/main.a88a571f.chunk.js"
   },
   {
     "revision": "151f31a7e84d85049eec73e654f49230",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/glrt-portfolio/static/media/api.7253484c.png"
   },
   {
-    "revision": "586423a6b266e5d4467a1c7e83e1d263",
+    "revision": "ba081d4cfca03d69b3cf79e70912d874",
     "url": "/glrt-portfolio/index.html"
   }
 ];
