@@ -15,7 +15,8 @@ class Contact extends Component {
       <h1 style={{ textAlign: 'center' }} >Entre em contato</h1>
         <Grid>
         <Col lg={6} xs={6} sm={12} xs={12}>
-          <h3>Redes Sociais</h3>
+          <p>Sinta-se a vontade para entrar em contato comigo. Estou sempre disposto a novos desafios e projetos</p>
+          <p>Caso necessite de ajuda em alguma tecnologia que tenho conhecimento não exite em entrar em contato, estou sempre disposo ajudar.</p>
         </Col>
         <Col lg={6} xs={6} sm={12} xs={12}>
           <Form horizontal action="https://formspree.io/jv.goulart.almeida@hotmail.com" method="POST">
@@ -58,7 +59,7 @@ class Contact extends Component {
 
               <FormGroup>
                 <Col smOffset={2} sm={6}>
-                  <Button bsStyle="primary" value="Send" type="submit">Enviar</Button>
+                  <Button className="btn-outline btn-white" value="Send" type="submit">Enviar</Button>
                 </Col>
               </FormGroup>
             </Row>

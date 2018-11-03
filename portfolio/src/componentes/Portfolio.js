@@ -1,12 +1,17 @@
 
 import React, { Component } from 'react';
 import { Grid, Row, Col, Image } from 'react-bootstrap';
-import Modal from 'react-responsive-modal';
 import Fade from 'react-reveal/Fade';
 
 
 import '../css/Portfolio.css';
+import CustomModal from './CustomModal';
 
+const ecommerce = {
+    title: 'E-Commerce para fármacias',
+    text: 'Em 2017 trabalhei no meu primeiro projeto, se tratava de desenvolver um ecommerce que era distribuido para os nossos clientes utilizarem,'+
+    ' era utilizado tecnologias de JSF, Hibernate e Spring'
+};
 
 class Portfolio extends Component {
 
@@ -18,7 +23,11 @@ class Portfolio extends Component {
         this.handleClose = this.handleClose.bind(this);
 
         this.state = {
-            show: false
+            show: false,
+            content: {
+                title: '',
+                text: ''
+            }
         };
     }
 
@@ -28,9 +37,11 @@ class Portfolio extends Component {
         this.setState({ show: false });
     }
 
-    handleShow() {
-        this.setState({ show: true });
+    handleShow(content) {
+        this.setState({ show: true, content });
     }
+
+
 
     render() {
         return (
@@ -52,7 +63,7 @@ class Portfolio extends Component {
                                 <div className="port-item">
                                     <Image className="img-portfolio" src={require('../img/ecommerce.png')} responsive />
                                     <div className="middle">
-                                        <div onClick={this.handleShow} className="text">E-commerce </div>
+                                        <div  onClick={() => this.handleShow(ecommerce)} className="text">E-commerce </div>
                                     </div>
                                 </div>
                             </Col>
@@ -60,7 +71,7 @@ class Portfolio extends Component {
                                 <div className="port-item">
                                     <Image className="img-portfolio" src={require('../img/cloud.png')} responsive />
                                     <div className="middle">
-                                        <div onClick={this.handleShow} className="text">Microserviços e Cloud</div>
+                                        <div onClick={() => this.handleShow('teste')} className="text">Microserviços e Cloud</div>
                                     </div>
                                 </div>
                             </Col>
@@ -68,7 +79,7 @@ class Portfolio extends Component {
                                 <div className="port-item">
                                     <Image className="img-portfolio" src={require('../img/barber-logo.png')} responsive />
                                     <div className="middle">
-                                        <div onClick={this.handleShow} className="text">App para Barbearia</div>
+                                        <div onClick={() => this.handleShow('teste')} className="text">App para Barbearia</div>
                                     </div>
                                 </div>
                             </Col>
@@ -78,7 +89,7 @@ class Portfolio extends Component {
                             <div className="port-item">
                                 <Image className="img-portfolio" src={require('../img/caixa.png')} responsive />
                                 <div className="middle">
-                                    <div onClick={this.handleShow} className="text">Caixa Seguradora</div>
+                                    <div onClick={() => this.handleShow('teste')} className="text">Caixa Seguradora</div>
                                 </div>
                             </div>
                         </Col>
@@ -87,7 +98,7 @@ class Portfolio extends Component {
                                 <div className="port-item">
                                     <Image className="img-portfolio" src={require('../img/volks.png')} responsive />
                                     <div className="middle">
-                                        <div onClick={this.handleShow} className="text">Volkswagen</div>
+                                        <div onClick={() => this.handleShow('teste')} className="text">Volkswagen</div>
                                     </div>
                                 </div>
                             </Col>
@@ -95,7 +106,7 @@ class Portfolio extends Component {
                                 <div className="port-item">
                                     <Image className="img-portfolio" src={require('../img/bradesco.png')} responsive />
                                     <div className="middle">
-                                        <div onClick={this.handleShow} className="text">Bradesco</div>
+                                        <div onClick={() => this.handleShow('teste')} className="text">Bradesco</div>
                                     </div>
                                 </div>
                             </Col>
@@ -104,19 +115,7 @@ class Portfolio extends Component {
                     </Row>
                 </Grid>
 
-                    <div>
-                        <Modal open={this.state.show} onClose={this.handleClose} center>
-                            <div className="modal-text">
-                                <h2>aaaaaaaaaaaaaaaaaaaaaaa</h2>
-                                <p>testedsadasdasd
-    
-                                    dsadas
-                                    dasdsada
-                                    dasdsadadas
-                        </p>
-                            </div>
-                        </Modal>
-                    </div>
+                    <CustomModal show={this.state.show} content={this.state.content} close={this.handleClose}></CustomModal>
             </section>
                 );
             }

@@ -19,7 +19,7 @@ class Menu extends Component {
         if (document.documentElement.scrollTop > 80) {
             element.classList.add("nav-fundo");
         } else {
-            element.classList.remove("nav-fundo");
+            //element.classList.remove("nav-fundo");
         }
 
     }
