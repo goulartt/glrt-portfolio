@@ -4,24 +4,24 @@ self.__precacheManifest = [
     "url": "/glrt-portfolio/static/media/ecommerce.c149a92a.png"
   },
   {
-    "revision": "0505011729e65ac8360a",
-    "url": "/glrt-portfolio/static/css/main.c04c4a12.chunk.css"
+    "revision": "c8dfb9cb75c083356f81",
+    "url": "/glrt-portfolio/static/css/main.f4fe967b.chunk.css"
   },
   {
-    "revision": "589d2292d2e762de66ba",
-    "url": "/glrt-portfolio/static/js/1.589d2292.chunk.js"
+    "revision": "97fbff13fa23618f994d",
+    "url": "/glrt-portfolio/static/js/1.97fbff13.chunk.js"
   },
   {
     "revision": "221da64ca261ecfbf09d",
     "url": "/glrt-portfolio/static/js/runtime~main.221da64c.js"
   },
   {
-    "revision": "076d851b602b9915c429f3a2e436c639",
-    "url": "/glrt-portfolio/static/media/Proxima-Nova-Light.076d851b.otf"
-  },
-  {
     "revision": "6a386899746222073dd64c5f74d1a69d",
     "url": "/glrt-portfolio/static/media/Proxima-Nova-Semibold.6a386899.otf"
+  },
+  {
+    "revision": "076d851b602b9915c429f3a2e436c639",
+    "url": "/glrt-portfolio/static/media/Proxima-Nova-Light.076d851b.otf"
   },
   {
     "revision": "fb7e411aaf7b47c5cb3e1ebb3171d12a",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/glrt-portfolio/static/media/me.8992e189.jpg"
   },
   {
-    "revision": "0505011729e65ac8360a",
-    "url": "/glrt-portfolio/static/js/main.05050117.chunk.js"
+    "revision": "c8dfb9cb75c083356f81",
+    "url": "/glrt-portfolio/static/js/main.c8dfb9cb.chunk.js"
   },
   {
     "revision": "151f31a7e84d85049eec73e654f49230",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/glrt-portfolio/static/media/rock.80273726.jpg"
   },
   {
-    "revision": "df5db613019b72a6013205508a30b455",
+    "revision": "fa48551060c0c2c44cb0b228bdf68477",
     "url": "/glrt-portfolio/index.html"
   }
 ];
