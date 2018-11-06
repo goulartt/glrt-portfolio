@@ -10,10 +10,10 @@ class About extends Component {
 
         return (
             <Fragment>
-                <section id="sobre">
+                <section id="about">
                     <Fade bottom>
 
-                        <Grid className="about">
+                        <Grid className="about-grid">
                             <Row>
                                 <Col xs={12} md={12} sm={12} xs={12}>
                                     <h1 className="title">QUEM SOU EU?</h1>

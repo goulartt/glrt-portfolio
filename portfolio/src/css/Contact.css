@@ -31,3 +31,10 @@
      background-repeat: no-repeat;
      background-size: cover;
 }
+
+.social-icon{
+    font-size: 2em;
+    margin-right: 2%;
+    cursor: pointer;
+    color: white;
+}

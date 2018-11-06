@@ -47,7 +47,7 @@ class Details extends Component {
             </Col>
 
             <a href="https://github.com/goulartt" target="_blank">
-              <img src={require('../img/github.png')} height="210" width="500" className="github"></img>
+              <img src={require('../img/github.png')} height="210" width="500" className="github hvr-bounce-in"></img>
             </a>
             <h3 className="github-text">GITHUB</h3>
             <Col lg={12} md={12} sm={12} xs={12}>

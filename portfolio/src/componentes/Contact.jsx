@@ -1,9 +1,9 @@
 
 import React, { Component, Fragment } from 'react';
 import { Form, FormGroup, Col, Checkbox, Button, FormControl, ControlLabel, Grid, Row } from 'react-bootstrap';
+import { FaFacebook, FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 
 import '../css/Contact.css';
-
 
 class Contact extends Component {
 
@@ -15,8 +15,17 @@ class Contact extends Component {
       <h1 style={{ textAlign: 'center' }} >Entre em contato</h1>
         <Grid>
         <Col lg={6} xs={6} sm={12} xs={12}>
-          <p>Sinta-se a vontade para entrar em contato comigo. Estou sempre disposto a novos desafios e projetos</p>
+          <p>Sinta-se a vontade para entrar em contato comigo. Estou sempre disposto a novos desafios e projetos.</p>
           <p>Caso necessite de ajuda em alguma tecnologia que tenho conhecimento não exite em entrar em contato, estou sempre disposo ajudar.</p>
+          
+          <br/>
+          <a className="blog-link" href="www.google.com" target="_blank">
+              <FaFacebook className="social-icon" />
+          </a>
+          <a className="blog-link" href="https://www.linkedin.com/in/joaogoulart/" target="_blank">
+          <FaLinkedin className="social-icon"/></a>
+          <a className="blog-link" href="https://github.com/goulartt/" target="_blank">
+          <FaGithubSquare className="social-icon"/></a>
         </Col>
         <Col lg={6} xs={6} sm={12} xs={12}>
           <Form horizontal action="https://formspree.io/jv.goulart.almeida@hotmail.com" method="POST">

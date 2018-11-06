@@ -1,18 +1,19 @@
 import React, { Component, Fragment } from 'react';
 import './App.css';
 
-import Header from './componentes/Header';
-import About from './componentes/About';
-import Skills from './componentes/Skills';
-import Portfolio from './componentes/Portfolio';
-import Blog from './componentes/Blog';
-import Contact from './componentes/Contact';
-import Details from './componentes/Details';
-import Footer from './componentes/Footer';
+import Header from './componentes/Header.jsx';
+import About from './componentes/About.jsx';
+import Skills from './componentes/Skills.jsx';
+import Portfolio from './componentes/Portfolio.jsx';
+import Blog from './componentes/Blog.jsx';
+import Contact from './componentes/Contact.jsx';
+import Details from './componentes/Details.jsx';
+import Footer from './componentes/Footer.jsx';
+
 
 class App extends Component {
 
-
+  
   render() {
     return (
       <Fragment>

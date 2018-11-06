@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import '../css/Skills.css';
 import { Grid, Row, Col } from 'react-bootstrap';
 import {  Bar } from 'react-chartjs-2';
@@ -9,11 +9,11 @@ class Skills extends Component {
     render() {
         return (
 
-            <Fragment>
+            <section id="skills">
                 <div className="skillsContainer">
 
                     <Grid >
-                        <Row className="skills" id="habilidade">
+                        <Row className="skills-row" id="habilidade">
                             <Col xs={12} md={12} sm={12} xs={12}>
                                 <h1>SKILLS</h1>
                             </Col>
@@ -34,7 +34,7 @@ class Skills extends Component {
                         <div style={{ height: '5vh ' }}/>
                     </Grid>
                 </div>
-            </Fragment>
+            </section>
         );
     }
 }

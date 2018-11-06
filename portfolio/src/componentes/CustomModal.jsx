@@ -17,8 +17,8 @@ class CustomModal extends Component {
                 <Modal open={this.props.show} onClose={this.props.close} center>
                     <div className="modal-text">
                         <h2>{this.props.content.title}</h2>
-                        <p>{this.props.content.text}
-                        </p>
+                        {this.props.content.text}
+                        
                     </div>
                 </Modal>
             </Fragment>
