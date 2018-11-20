@@ -106,57 +106,43 @@ class Portfolio extends Component {
                     </Row>
                     <Row>
                         <Fade right>
-                            <Col lg={4} md={4} sm={6} xs={12}>
-                                <div className="port-item hvr-bob">
-                                    <Image className="img-portfolio" src={require('../img/ecommerce.png')} responsive />
-                                    <div className="middle">
-                                        <div onClick={() => this.handleShow(ecommerce)} className="text">E-commerce </div>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col lg={4} md={4} sm={6} xs={12}>
-                                <div className="port-item hvr-bob">
-                                    <Image className="img-portfolio" src={require('../img/cloud.png')} responsive />
-                                    <div className="middle">
-                                        <div onClick={() => this.handleShow(cloud)} className="text">Microserviços e Cloud</div>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col lg={4} md={4} sm={6} xs={12}>
-                                <div className="port-item hvr-bob">
-                                    <Image className="img-portfolio" src={require('../img/barber-logo.png')} responsive />
-                                    <div className="middle">
-                                        <div onClick={() => this.handleShow(barber)} className="text">App para Barbearia</div>
-                                    </div>
-                                </div>
-                            </Col>
-                        </Fade>
-                        <Fade left>
-                            <Col lg={4} md={4} sm={6} xs={12}>
-                                <div className="port-item hvr-bob">
-                                    <Image className="img-portfolio" src={require('../img/caixa.png')} responsive />
-                                    <div className="middle">
-                                        <div onClick={() => this.handleShow(caixa)} className="text">Caixa Seguradora</div>
-                                    </div>
-                                </div>
-                            </Col>
+                            {this.props.portfolio.portfolio && this.props.portfolio.portfolio.map(p => {
+                                
+                                let img;
+                                if(p.projeto.includes('E-Commerce')) {
+                                    img = require('../img/ecommerce.png');
+                                }
 
-                            <Col lg={4} md={4} sm={6} xs={12}>
-                                <div className="port-item hvr-bob">
-                                    <Image className="img-portfolio" src={require('../img/volks.png')} responsive />
-                                    <div className="middle">
-                                        <div onClick={() => this.handleShow(volks)} className="text">Volkswagen</div>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col lg={4} md={4} sm={6} xs={12}>
-                                <div className="port-item hvr-bob">
-                                    <Image className="img-portfolio" src={require('../img/bradesco.png')} responsive />
-                                    <div className="middle">
-                                        <div onClick={() => this.handleShow(bradesco)} className="text">Bradesco</div>
-                                    </div>
-                                </div>
-                            </Col>
+                                if(p.projeto.includes('Barbearia')) {
+                                    img = require('../img/barber-logo.png');
+                                }
+                                
+                                if(p.projeto.includes('Cloud')) {
+                                    img = require('../img/cloud.png');
+                                }
+                                
+                                if(p.projeto.includes('Volks')) {
+                                    img = require('../img/volks.png');
+                                }
+                                
+                                if(p.projeto.includes('Caixa')) {
+                                    img = require('../img/caixa.png');
+                                }
+                                
+                                if(p.projeto.includes('Bradesco')) {
+                                    img = require('../img/bradesco.png');
+                                }
+                                return (
+                                    <Col lg={4} md={4} sm={6} xs={12}>
+                                        <div className="port-item hvr-bob">
+                                            <Image className="img-portfolio" src={img} responsive />
+                                            <div className="middle">
+                                                <div onClick={() => this.handleShow(p)} className="text">{p.projeto}</div>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                );
+                            })}
                         </Fade>
 
                     </Row>

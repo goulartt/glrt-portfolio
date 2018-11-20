@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import '../css/Skills.css';
 import { Grid, Row, Col } from 'react-bootstrap';
-import {  Bar } from 'react-chartjs-2';
+import { Bar } from 'react-chartjs-2';
 import { defaults } from 'react-chartjs-2';
 
 
 class Skills extends Component {
+    constructor(props) {
+        super(props);
+    }
+
     render() {
         return (
 
@@ -24,14 +28,14 @@ class Skills extends Component {
 
                         <Row>
                             <Col xs={6} md={6} sm={12} xs={12}>
-                                <Bar data={dataJava} options={optionsJava} />
+                                <Bar data={this.props.skills.java} options={optionsJava} />
                             </Col>
 
                             <Col xs={6} md={6} sm={12} xs={12}>
-                                <Bar data={dataJavascript} options={optionsJavascript} />
+                                <Bar data={this.props.skills.javascript} options={optionsJavascript} />
                             </Col>
                         </Row>
-                        <div style={{ height: '5vh ' }}/>
+                        <div style={{ height: '5vh ' }} />
                     </Grid>
                 </div>
             </section>

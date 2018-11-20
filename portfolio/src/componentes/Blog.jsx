@@ -6,11 +6,6 @@ import '../css/hover.css';
 import '../css/Blog.css';
 
 
-const blog1 = {
-    title: 'Teste',
-    conteudo: 'Teste teste aaaaaaaaaaaaaaaaaaaaaaaa',
-    link: 'https://www.google.com'
-}
 
 
 class Blog extends Component {
