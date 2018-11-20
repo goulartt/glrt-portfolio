@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "c149a92aca63528798bdcd18db4426e6",
-    "url": "/glrt-portfolio/static/media/ecommerce.c149a92a.png"
+    "revision": "fa3a9009513c4fddd6a7b0bf7bf6c69a",
+    "url": "/glrt-portfolio/static/media/barber-logo.fa3a9009.png"
   },
   {
-    "revision": "c8dfb9cb75c083356f81",
-    "url": "/glrt-portfolio/static/css/main.f4fe967b.chunk.css"
+    "revision": "9ff4ad86194acec384d9",
+    "url": "/glrt-portfolio/static/css/main.d6258aa0.chunk.css"
   },
   {
-    "revision": "97fbff13fa23618f994d",
-    "url": "/glrt-portfolio/static/js/1.97fbff13.chunk.js"
+    "revision": "0cca2556d0e62a1a8623",
+    "url": "/glrt-portfolio/static/js/1.0cca2556.chunk.js"
   },
   {
     "revision": "221da64ca261ecfbf09d",
     "url": "/glrt-portfolio/static/js/runtime~main.221da64c.js"
   },
   {
-    "revision": "6a386899746222073dd64c5f74d1a69d",
-    "url": "/glrt-portfolio/static/media/Proxima-Nova-Semibold.6a386899.otf"
-  },
-  {
     "revision": "076d851b602b9915c429f3a2e436c639",
     "url": "/glrt-portfolio/static/media/Proxima-Nova-Light.076d851b.otf"
+  },
+  {
+    "revision": "6a386899746222073dd64c5f74d1a69d",
+    "url": "/glrt-portfolio/static/media/Proxima-Nova-Semibold.6a386899.otf"
   },
   {
     "revision": "fb7e411aaf7b47c5cb3e1ebb3171d12a",
@@ -36,28 +36,24 @@ self.__precacheManifest = [
     "url": "/glrt-portfolio/static/media/curriculo_ingles.40fe809a.pdf"
   },
   {
-    "revision": "8992e1899c48fe1298094f1453a0807f",
-    "url": "/glrt-portfolio/static/media/me.8992e189.jpg"
+    "revision": "c149a92aca63528798bdcd18db4426e6",
+    "url": "/glrt-portfolio/static/media/ecommerce.c149a92a.png"
   },
   {
-    "revision": "c8dfb9cb75c083356f81",
-    "url": "/glrt-portfolio/static/js/main.c8dfb9cb.chunk.js"
+    "revision": "9ff4ad86194acec384d9",
+    "url": "/glrt-portfolio/static/js/main.9ff4ad86.chunk.js"
   },
   {
     "revision": "151f31a7e84d85049eec73e654f49230",
     "url": "/glrt-portfolio/static/media/cloud.151f31a7.png"
   },
   {
-    "revision": "fa3a9009513c4fddd6a7b0bf7bf6c69a",
-    "url": "/glrt-portfolio/static/media/barber-logo.fa3a9009.png"
+    "revision": "14aa8c2bb07974c7447c2889faee387e",
+    "url": "/glrt-portfolio/static/media/volks.14aa8c2b.png"
   },
   {
     "revision": "96066ab669e4e288e22f73e8af637e40",
     "url": "/glrt-portfolio/static/media/caixa.96066ab6.png"
-  },
-  {
-    "revision": "14aa8c2bb07974c7447c2889faee387e",
-    "url": "/glrt-portfolio/static/media/volks.14aa8c2b.png"
   },
   {
     "revision": "aa8bda9e761263ce180ac8f614d5f8f5",
@@ -80,7 +76,7 @@ self.__precacheManifest = [
     "url": "/glrt-portfolio/static/media/rock.80273726.jpg"
   },
   {
-    "revision": "fa48551060c0c2c44cb0b228bdf68477",
+    "revision": "055ef13252ba7b7b948eafe6ee96d915",
     "url": "/glrt-portfolio/index.html"
   }
 ];
