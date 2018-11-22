@@ -13,6 +13,8 @@ class About extends Component {
 
     render() {
 
+        //const curriculo = base64.base64Decode(this.props.about.curriculo, 'curriculo');
+
         return (
             <Fragment>
                 <section id="about">
@@ -27,7 +29,7 @@ class About extends Component {
                                     <Image src={this.props.about.foto} circle width={400} height={350} />
                                     <p className="me">{this.props.about.resumo}</p>
                                     <br />
-                                    <Button className="btn-outline btn-black" href={resume} target="_blank" download>Currículo PDF</Button>
+                                    <Button className="btn-outline btn-black" href={this.props.about.curriculo} target="_blank" download>Currículo PDF</Button>
                                     <Button className="btn-outline btn-red" href={this.props.about.certificado} target="_blank" >Certificado ORACLE</Button>
                                 </Col>
                                 <Col xs={6} md={6} sm={12} xs={12}>
