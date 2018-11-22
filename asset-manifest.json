@@ -1,7 +1,7 @@
 {
-  "main.css": "/glrt-portfolio/static/css/main.d6258aa0.chunk.css",
-  "main.js": "/glrt-portfolio/static/js/main.9ff4ad86.chunk.js",
-  "main.js.map": "/glrt-portfolio/static/js/main.9ff4ad86.chunk.js.map",
+  "main.css": "/glrt-portfolio/static/css/main.162847b9.chunk.css",
+  "main.js": "/glrt-portfolio/static/js/main.8ee0233e.chunk.js",
+  "main.js.map": "/glrt-portfolio/static/js/main.8ee0233e.chunk.js.map",
   "static/js/1.0cca2556.chunk.js": "/glrt-portfolio/static/js/1.0cca2556.chunk.js",
   "static/js/1.0cca2556.chunk.js.map": "/glrt-portfolio/static/js/1.0cca2556.chunk.js.map",
   "runtime~main.js": "/glrt-portfolio/static/js/runtime~main.221da64c.js",
@@ -20,8 +20,8 @@
   "static/media/async.jpeg": "/glrt-portfolio/static/media/async.f1329848.jpeg",
   "static/media/realidade-aumentada.jpg": "/glrt-portfolio/static/media/realidade-aumentada.36896694.jpg",
   "static/media/Contact.css": "/glrt-portfolio/static/media/rock.80273726.jpg",
-  "static/css/main.d6258aa0.chunk.css.map": "/glrt-portfolio/static/css/main.d6258aa0.chunk.css.map",
+  "static/css/main.162847b9.chunk.css.map": "/glrt-portfolio/static/css/main.162847b9.chunk.css.map",
   "index.html": "/glrt-portfolio/index.html",
-  "precache-manifest.d403b260b2a789d52b9e69ec13a163c0.js": "/glrt-portfolio/precache-manifest.d403b260b2a789d52b9e69ec13a163c0.js",
+  "precache-manifest.34c5f3c285ac8a6b0c58ea7ce9a8bd03.js": "/glrt-portfolio/precache-manifest.34c5f3c285ac8a6b0c58ea7ce9a8bd03.js",
   "service-worker.js": "/glrt-portfolio/service-worker.js"
 }

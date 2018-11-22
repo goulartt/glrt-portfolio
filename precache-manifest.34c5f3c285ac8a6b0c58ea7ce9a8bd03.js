@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/glrt-portfolio/static/media/barber-logo.fa3a9009.png"
   },
   {
-    "revision": "9ff4ad86194acec384d9",
-    "url": "/glrt-portfolio/static/css/main.d6258aa0.chunk.css"
+    "revision": "8ee0233e8d64df43ba23",
+    "url": "/glrt-portfolio/static/css/main.162847b9.chunk.css"
   },
   {
     "revision": "0cca2556d0e62a1a8623",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/glrt-portfolio/static/media/ecommerce.c149a92a.png"
   },
   {
-    "revision": "9ff4ad86194acec384d9",
-    "url": "/glrt-portfolio/static/js/main.9ff4ad86.chunk.js"
+    "revision": "8ee0233e8d64df43ba23",
+    "url": "/glrt-portfolio/static/js/main.8ee0233e.chunk.js"
   },
   {
     "revision": "151f31a7e84d85049eec73e654f49230",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/glrt-portfolio/static/media/rock.80273726.jpg"
   },
   {
-    "revision": "055ef13252ba7b7b948eafe6ee96d915",
+    "revision": "10eb05640f540e53a886f6172da68691",
     "url": "/glrt-portfolio/index.html"
   }
 ];
